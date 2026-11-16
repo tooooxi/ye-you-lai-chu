@@ -1,0 +1,17 @@
+node_modules
+.next
+out
+.DS_Store
+*.log
+tsconfig.tsbuildinfo
+
+.env
+.env*.local
+
+# 真实报价只留在本机
+config/pricing.local.json
+
+# 项目数据只留在本机
+data/store.json
+data/store.json.tmp
+data/*.tmp
